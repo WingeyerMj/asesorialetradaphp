@@ -1,0 +1,14 @@
+
+Warning: PHP Startup: Unable to load dynamic library 'gettex' (tried: \xampp\php\ext\gettex (No se puede encontrar el módulo especificado), \xampp\php\ext\php_gettex.dll (No se puede encontrar el módulo especificado)) in Unknown on line 0
+
+Warning: Module "fileinfo" is already loaded in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library 'php_gd2.dll' (tried: \xampp\php\ext\php_gd2.dll (No se puede encontrar el módulo especificado), \xampp\php\ext\php_php_gd2.dll.dll (No se puede encontrar el módulo especificado)) in Unknown on line 0
+
+Fatal error: Uncaught Error: Call to undefined function each() in C:\Users\mwingeyer\AppData\Roaming\Sublime Text 3\Packages\PHPTools\php.tools\codeFormatter.php:54
+Stack trace:
+#0 C:\Users\mwingeyer\AppData\Roaming\Sublime Text 3\Packages\PHPTools\php.tools\codeFormatter.php(41): AddMissingCurlyBraces->addBraces('?php \r\n\r\nrequir...')
+#1 C:\Users\mwingeyer\AppData\Roaming\Sublime Text 3\Packages\PHPTools\php.tools\codeFormatter.php(326): AddMissingCurlyBraces->format('?php \r\n\r\nrequir...')
+#2 C:\Users\mwingeyer\AppData\Roaming\Sublime Text 3\Packages\PHPTools\php.tools\codeFormatter.php(1736): CodeFormatter->formatCode('?php \r\n\r\nrequir...')
+#3 {main}
+  thrown in C:\Users\mwingeyer\AppData\Roaming\Sublime Text 3\Packages\PHPTools\php.tools\codeFormatter.php on line 54
